@@ -143,29 +143,7 @@
 .menu-wrap {
   position: fixed;
   display: flex;
+  flex-direction: row;
   width: 100%;
   height: 5vh;
-}
-
-.menu-wrap header {
-  margin-top: 5rem;
-}
-
-/* Nav Links */
-.nav-link {
-  display: inline-block;
-  text-decoration: none;
-  color: var(--nav-color);
-  border: 1px solid var(--white);
-  padding: 2rem;
-  width: 100%;
-  background-color: var(--blue-link);
-}
-
-.menu-wrap ul {
-  margin-top: 3rem;
-}
-.menu-wrap ul li {
-  list-style-type: none;
-  margin: 2rem auto;
 }
